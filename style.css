@@ -41,7 +41,7 @@ p {
   background: #000;
   background-position: center;
   background-size: cover;
-  background-image: url(/djAntriksh.github.io/images/cool-background.png);
+  background-image: url(/images/cool-background.png);
   position: relative;
   padding-top: 130px;
   height: 100vh;
@@ -526,6 +526,56 @@ h3 {
   }
 }
 
+/* -----------video--------- */
+.video {
+  text-align: center;
+}
+.video video {
+  width: 70%;
+  height: 50%;
+}
+@media (max-width: 700px) {
+  .video video {
+    width: 100%;
+    height: 50%;
+  }
+}
+/* -----------slider----------- */
+.slider-header {
+  padding: 100px 0px 0px;
+}
+.slider {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0px 50px;
+}
+.slider img {
+  max-width: 400px;
+  padding: 20px 20px;
+  border-radius: 40px;
+}
+
+.sliderr {
+  margin: 0 auto;
+}
+.slick-slide {
+  width: 350px;
+}
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+.slick-dots li button:before {
+  font-size: 12px;
+  color: red;
+}
+@media (max-width: 768px) {
+  .slick-next {
+    right: -10px;
+  }
+  .slick-prev {
+    left: -10px;
+  }
+}
 /* ---------contact us page---------- */
 .location {
   width: 80%;
@@ -657,4 +707,13 @@ h3 {
     padding-top: 20px;
     padding: 0;
   }
+}
+.brand {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.brand:hover {
+  color: crimson;
+  background: none;
 }
