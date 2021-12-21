@@ -722,7 +722,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background-color: black;
+  background-color: #111;
 }
 
 html::-webkit-scrollbar-thumb {
